@@ -1,0 +1,26 @@
+2023-06-02 12:47:32.127 [info] [SharedProcess] using utility process
+2023-06-02 12:47:32.189 [info] update#setState idle
+2023-06-02 12:47:34.284 [info] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2023-06-02 12:47:34.296 [info] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-06-02 12:47:34.309 [info] [UtilityProcess type: shared-process, pid: 41565]: successfully created
+2023-06-02 12:47:34.311 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 41566]: successfully created
+2023-06-02 12:47:34.534 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-06-02 12:47:34.543 [info] [UtilityProcess id: 1, type: extensionHost, pid: 41595]: successfully created
+2023-06-02 12:48:02.190 [info] update#setState checking for updates
+2023-06-02 12:48:02.196 [info] update#setState available for download
+2023-06-02 12:50:01.193 [warning] [UtilityProcessWorker]: createWorker() found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+2023-06-02 12:50:01.194 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 41566]: attempting to kill the process...
+2023-06-02 12:50:01.194 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 41566]: successfully killed the process
+2023-06-02 12:50:01.195 [info] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-06-02 12:50:01.207 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 41869]: successfully created
+2023-06-02 12:50:01.208 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 41566]: received exit event with code 0
+2023-06-02 12:54:25.462 [info] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-06-02 12:54:25.469 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 42257]: successfully created
+2023-06-02 12:55:11.073 [info] [UtilityProcess id: 1, type: extensionHost, pid: 41595]: received exit event with code 0
+2023-06-02 12:55:11.074 [info] Extension host with pid 41595 exited with code: 0, signal: unknown.
+2023-06-02 12:55:11.144 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 41869]: attempting to kill the process...
+2023-06-02 12:55:11.144 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 41869]: successfully killed the process
+2023-06-02 12:55:11.145 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 42257]: attempting to kill the process...
+2023-06-02 12:55:11.145 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 42257]: successfully killed the process
+2023-06-02 12:55:11.178 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 41869]: received exit event with code 0
+2023-06-02 12:55:11.179 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 42257]: received exit event with code 0

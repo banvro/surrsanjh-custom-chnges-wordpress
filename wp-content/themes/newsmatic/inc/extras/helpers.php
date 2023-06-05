@@ -80,11 +80,68 @@ if( !function_exists( 'newsmatic_header_html' ) ) :
                             .addtwo{height: 115px; max-width: 123px; margin-top: -8px;}
                             .sursaanjimg{height: 94px; max-width: 123px; margin-top: -8px;}
                             .edetordesktxt{padding-left: 0px; margin-left: -21px;}
+                            .shwthis{display: none;}
+
+                            @media (max-width: 769px){
+                                .custmheadrmanage{
+                                    
+                                }
+                                .addone{
+
+                                }
+                                .addtwo{
+
+                                }
+                                .sursaanjimg{
+                                    margin-left: 72%;
+                                    margin-top: 20px;
+                                }
+                                .edetordesktxt{
+                                    padding-left: 72%;
+                                    margin-left: 19px;
+                                }
+                                .site-header.layout--default .social-icons-wrap {
+                                    margin-top: 0px !important;
+                                }
+                                .site-header.layout--one .header-right-button-wrap {
+                                    text-align: start;
+                                    margin-top: -183px;
+                                    margin-bottom: 183px;
+                                }
+                                .hidthis{
+                                    display: none;
+                                }
+                                .shwthis{
+                                    display: flex;
+                                    margin-top: -33px;
+                                    margin-bottom: 30px;
+                                    align-items: center;
+                                    justify-content: space-evenly;
+                                }
+
+                                .site-header.layout--default .main-header .site-branding-section .site-branding {
+                                    padding: 20px 5px;
+                                    text-align: center;
+                                    margin-top: 48px;
+                                }
+
+                                .site-header.layout--one .header-right-button-wrap {
+                                    text-align: start;
+                                    margin-top: -227px;
+                                    margin-bottom: 183px;
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+
+                                .site-header.layout--default .header-right-button-wrap > div {
+                                    padding-left: 0px;
+                                }
+                            }
                         </style>
                         
                         <div class="custmheadrmanage">
                             <div class="mera-nazirya row">
-                                <div class="col">
+                                <div class="col hidthis">
                                     <img src="https://sursaanjh.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-02-at-15.12.46-879x1024-2-258x300.jpg" class="img-responsive col addone" alt="">
                                     <img src="https://sursaanjh.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-02-at-15.13.25-205x300.jpg" class="img-responsive col addtwo" alt="" >
 
@@ -109,6 +166,8 @@ if( !function_exists( 'newsmatic_header_html' ) ) :
                             </div>
                         </div>
 
+                       
+
                         <?php
                             /**
                              * hook - newsmatic_header__site_branding_section_hook
@@ -122,7 +181,15 @@ if( !function_exists( 'newsmatic_header_html' ) ) :
                     </div>
                 </div>
             </div>
-            
+
+
+            <div class="col shwthis">
+                <img src="https://sursaanjh.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-02-at-15.12.46-879x1024-2-258x300.jpg" class="img-responsive col addone" alt="">
+                <img src="https://sursaanjh.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-02-at-15.13.25-205x300.jpg" class="img-responsive col addtwo" alt="" >
+
+            </div>
+
+
             <div class="menu-section">
                 <div class="newsmatic-container">
                     <div class="row">

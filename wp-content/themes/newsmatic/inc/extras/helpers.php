@@ -60,6 +60,7 @@ if( !function_exists( 'newsmatic_advertisement_block_html' ) ) :
     }
 endif;
 
+
 if( !function_exists( 'newsmatic_header_html' ) ) :
     /**
      * Calls header hooks
@@ -73,19 +74,31 @@ if( !function_exists( 'newsmatic_header_html' ) ) :
             <div class="site-branding-section">
                 <div class="newsmatic-container">
                     <div class="row">
+                        <style>
+                            .custmheadrmanage{position: absolute; max-width: 90%; margin-top: -56px;}
+                            .addone{height: 106px; max-width: 123px; margin-top: -8px;}
+                            .addtwo{height: 115px; max-width: 123px; margin-top: -8px;}
+                            .sursaanjimg{height: 94px; max-width: 123px; margin-top: -8px;}
+                            .edetordesktxt{padding-left: 0px; margin-left: -21px;}
+                        </style>
                         
-                        <div style=" position: absolute; max-width: 90%; margin-top: -56px;">
+                        <div class="custmheadrmanage">
                             <div class="mera-nazirya row">
+                                <div class="col">
+                                    <img src="https://sursaanjh.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-02-at-15.12.46-879x1024-2-258x300.jpg" class="img-responsive col addone" alt="">
+                                    <img src="https://sursaanjh.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-02-at-15.13.25-205x300.jpg" class="img-responsive col addtwo" alt="" >
+
+                                </div>
+                                <div class="col">
+                                </div>
                                 <div class="col"></div>
                                 <div class="col"></div>
                                 <div class="col"></div>
-                                <div class="col"></div>
-                                <div class="col"></div>
-                                <img src="https://khabarwaale.com/images/editor.png" class="img-responsive col" alt="" style="height: 94px; max-width: 123px; margin-top: -8px;">
+                                <img src="https://sursaanjh.com/wp-content/uploads/2023/06/sursaanjpic.png" class="img-responsive col sursaanjimg" alt="">
                                 
-                                <div class="col" style="padding-left: 0px; margin-left: -21px;">
+                                <div class="col edetordesktxt">
                                     <h3 style="font-size: 15px; text-align: center;">Editor's Desk</h3>
-                                    <h5 style="font-size: 12px; text-align: center;">Parminder Singh Jatpuri</h5>
+                                    <h5 style="font-size: 12px; text-align: center;">Surjit Singh</h5>
                                     <h6 class="job-tittle" style="display: flex; justify-content: center;">
                                     <button class="view-detail" href="https://khabarwaale.com//profile.php" style="font-size: 11px;"><i class="fa fa-angle-double-right" aria-hidden="true"></i> ਹੋਰ ਪੜ੍ਹੋ </button>
                                     </h6>

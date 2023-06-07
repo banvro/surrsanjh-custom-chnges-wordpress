@@ -78,8 +78,8 @@ if( !function_exists( 'newsmatic_header_html' ) ) :
                             .custmheadrmanage{position: absolute; max-width: 90%; margin-top: -56px;}
                             .addone{height: 106px; max-width: 123px; margin-top: -8px;}
                             .addtwo{height: 115px; max-width: 123px; margin-top: -8px;}
-                            .sursaanjimg{height: 94px; max-width: 123px; margin-top: -8px;}
-                            .edetordesktxt{padding-left: 0px; margin-left: -21px;}
+                            .sursaanjimg{height: 94px; max-width: 123px; margin-top: -25px;}
+                            .edetordesktxt{padding-left: 0px; margin-left: -48px;}
                             .shwthis{display: none;}
 
                             @media (max-width: 769px){
@@ -136,6 +136,15 @@ if( !function_exists( 'newsmatic_header_html' ) ) :
                                 .site-header.layout--default .header-right-button-wrap > div {
                                     padding-left: 0px;
                                 }
+                            }
+
+                            @media (min-width: 768px) and (max-width: 1024px){
+                                .hidthis {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                }
+                                
                             }
                         </style>
                         

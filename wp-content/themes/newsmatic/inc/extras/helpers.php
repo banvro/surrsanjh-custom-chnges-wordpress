@@ -151,11 +151,24 @@ if( !function_exists( 'newsmatic_header_html' ) ) :
                         <div class="custmheadrmanage">
                             <div class="mera-nazirya row">
                                 <div class="col hidthis">
-                                    <img src="https://sursaanjh.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-02-at-15.12.46-879x1024-2-258x300.jpg" class="img-responsive col addone" alt="">
-                                    <img src="https://sursaanjh.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-02-at-15.13.25-205x300.jpg" class="img-responsive col addtwo" alt="" >
+                                    <div class="row" style="flex-wrap: nowrap; ">
+                                        <div class="col" style="padding-right: 0px; margin-right: -5px;">
+                                            <img src="https://sursaanjh.com/wp-content/uploads/2023/06/ads4-240x300.jpeg" class="img-responsive col addtwo" alt="" >
+
+                                        </div>
+                                        <div class="col" style="padding-right: 0px; margin-right: -5px;">
+                                            <img src="https://sursaanjh.com/wp-content/uploads/2023/06/ads3-215x300.jpeg" class="img-responsive col addtwo" alt="">
+
+                                        </div>
+                                        <div class="col" style="padding-right: 0px; margin-right: -5px;">
+                                            <img src="https://sursaanjh.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-02-at-15.12.46-879x1024-2-258x300.jpg" class="img-responsive col addone" alt="" style="height: 113px;">
+                                        </div>
+                                    </div>
 
                                 </div>
-                                <div class="col">
+                                <div class="col hidthis">
+                                    
+
                                 </div>
                                 <div class="col"></div>
                                 <div class="col"></div>
@@ -194,8 +207,10 @@ if( !function_exists( 'newsmatic_header_html' ) ) :
 
 
             <div class="col shwthis">
-                <img src="https://sursaanjh.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-02-at-15.12.46-879x1024-2-258x300.jpg" class="img-responsive col addone" alt="">
-                <img src="https://sursaanjh.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-02-at-15.13.25-205x300.jpg" class="img-responsive col addtwo" alt="" >
+
+                <img src="https://sursaanjh.com/wp-content/uploads/2023/06/ads4-240x300.jpeg" class="img-responsive col addtwo" alt="" >
+                <img src="https://sursaanjh.com/wp-content/uploads/2023/06/ads3-215x300.jpeg" class="img-responsive col addtwo" alt="">
+                <img src="https://sursaanjh.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-02-at-15.12.46-879x1024-2-258x300.jpg" class="img-responsive col addone" alt="" >
 
             </div>
 
@@ -582,3 +597,17 @@ endif;
     }
     add_action( 'newsmatic_page_prepend_hook', 'newsmatic_custom_header_html', 20 );
  endif;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

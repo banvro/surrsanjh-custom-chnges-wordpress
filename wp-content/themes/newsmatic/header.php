@@ -50,7 +50,7 @@ use Newsmatic\CustomizerDefault as ND;
 
 			/**
 			 * Function - newsmatic_header_html
-			 *  
+			 * 
 			 * @since 1.0.0
 			 * 
 			 */

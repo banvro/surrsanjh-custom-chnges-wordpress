@@ -166,7 +166,8 @@ if( !function_exists( 'newsmatic_header_html' ) ) :
                                     <h3 style="font-size: 15px; text-align: center;">Editor's Desk</h3>
                                     <h5 style="font-size: 12px; text-align: center;">Surjit Singh</h5>
                                     <h6 class="job-tittle" style="display: flex; justify-content: center;">
-                                    <button class="view-detail" href="https://khabarwaale.com//profile.php" style="font-size: 11px;"><i class="fa fa-angle-double-right" aria-hidden="true"></i> ਹੋਰ ਪੜ੍ਹੋ </button>
+                                    <button class="view-detail" style="font-size: 11px;"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                    <a style="text-decoration:none; color:white;" href="https://sursaanjh.com/editors-desk-surjit-singh/">ਹੋਰ ਪੜ੍ਹੋ </button></a>
                                     </h6>
                                 </div>
                     
